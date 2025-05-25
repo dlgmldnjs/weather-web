@@ -1,0 +1,70 @@
+.section {
+  margin-top: 2rem;
+}
+
+.title {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.message {
+  color: #777;
+}
+
+.card {
+  background-color: #e1643b35;
+  border-radius: 28px;
+  padding: 1rem 0.6rem; /* 상 우 하 좌 */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.clothes {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.clothes img {
+  width: 80px;
+  height: auto;
+}
+
+.feedback {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.goodButton,
+.badButton {
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  background-color: #f3f1f1;
+  border: none;
+  transition: background-color 0.2s;
+}
+
+.icon {
+  color: #e1643b;
+  font-style: bold;
+}
+
+.goodButton:hover,
+.badButton:hover {
+  background-color: #e1643b82;
+}
+
+.goodButton.active {
+  background-color: #e1643b;
+}
+
+.badButton.active {
+  background-color: #e1643b;
+}

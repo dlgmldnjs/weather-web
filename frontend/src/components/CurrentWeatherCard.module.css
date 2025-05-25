@@ -1,0 +1,70 @@
+.title {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.message {
+  color: #777;
+}
+
+.card {
+  border: 1px solid #ffffff;
+  border-radius: 28px;
+  padding: 1rem;
+  background-color: #e6e6e6;
+  max-width: 260px;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  height: 150px;
+
+}
+
+.topRow {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.leftInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.temp {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 1rem;
+  color: #444;
+  margin-top: 0.3rem;
+}
+
+.icon {
+  width: 100px;   
+  height: 100px;
+}
+.city{
+  font-weight: bold;
+  color: #e1643b;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #e1643b68;
+}
+
+.bottomRow {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 0.95rem;
+  color: #333;
+}

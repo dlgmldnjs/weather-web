@@ -1,0 +1,52 @@
+.section {
+  margin-top: 2rem;
+}
+
+.title {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.message {
+  color: #777;
+}
+
+.forecastWrapper {
+  border: 1px solid #ffffff;
+  border-radius: 28px; 
+  padding: 0.6rem 0.5rem 0.6rem 1rem; /* 상 우 하 좌 */
+  background-color: #e1643b35;
+  max-width: 260px;
+  width: 100%;
+  margin: 0;
+}
+
+.forecastList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+
+.forecastItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.1rem 0.1rem;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.temp {
+  width: 60px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.date {
+  font-size: 0.95rem;
+  color: #333;
+}

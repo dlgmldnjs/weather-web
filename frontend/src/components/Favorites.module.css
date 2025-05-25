@@ -1,0 +1,64 @@
+.section {
+  margin-top: 2rem;
+}
+
+.title {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.message {
+  color: #777;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-width: 700px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  background-color: #e6e6e6;
+  border-radius: 28px;
+  padding: 0.3rem 0.8rem 0.3rem 1.4rem; /* 상 우 하 좌 */
+  margin-bottom: 0.4rem;
+}
+
+.cityButton {
+  background: none;
+  border: none;
+  color: #e1643b;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.cityButton:hover {
+  text-decoration: underline;
+}
+
+.icon {
+  width: 33px;
+  height: 33px;
+}
+
+.temp {
+  font-size: 0.95rem;
+  color: #000000;
+}
+
+.removeButton {
+  background: none;
+  border: none;
+  color: #e1643b;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.removeButton:hover {
+  color: #b9492a;
+}
