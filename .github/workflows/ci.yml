@@ -20,8 +20,8 @@ jobs:
           cache: "npm"
 
       - name: Install dependencies & build frontend
+        working-directory: ./frontend
         run: |
-          cd frontend
           npm ci
           npm run build
 
